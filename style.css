@@ -16,8 +16,14 @@ p{
 .half-width img{
     width: 80%;
 }
-section{
+.stay-mission-border {
+    border-left: 5px solid;
+    border-image: linear-gradient(green,olive);
+    border-image-slice: 1;
+}
+.flexible-container{
     display: flex;
+    margin-bottom: 20px;
 }
 .link-button{
     text-decoration: none;
@@ -26,4 +32,41 @@ section{
     font-weight: 400px;
     padding: 10px 40px;
     border-radius: 5px;
+}
+#my-mission{
+    text-align: center;
+}
+.mission-vission {
+    width: 30%;
+    border-left: 5px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px gray;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.mission-vission img{
+  width: 30%;  
+}
+.mission-item {
+    background-color: pink;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.vission-item{
+    background-color: aquamarine;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.goal-item{
+    background-color: palegreen;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.mission-sec {
+    background-color: black;
+}
+.mission {
+    text-align: center;
+    color: white;
+    border: 1px solid black;
 }
